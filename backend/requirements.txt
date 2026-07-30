@@ -1,0 +1,23 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+anthropic==0.40.0
+voyageai==0.3.7
+pinecone-client==5.0.1
+spotipy==2.24.0
+lyricsgenius==3.0.1
+python-dotenv==1.0.1
+pydantic==2.10.3
+# Monetization
+supabase==2.10.0
+stripe==11.3.0
+pyjwt[crypto]==2.10.1
+svix==1.45.0
+# Audio analysis (Shazam-like feature)
+librosa>=0.10.0
+soundfile>=0.12.0
+python-multipart>=0.0.7
+numpy>=1.24.0
+# Lyrics scraping (replaces lyricsgenius public-API dependency)
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+requests>=2.31.0
